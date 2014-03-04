@@ -87,16 +87,9 @@
 					<source>1.6</source>
 					<target>1.6</target>
 					<compilerArgument>-Xlint</compilerArgument>
-					<excludes>
-						<exclude>**/Test*.java</exclude>
-						<exclude>**/client/*.java</exclude>
-					</excludes>
-					<testIncludes>
-						<include>**/Test*.java</include>
-					</testIncludes>
 				</configuration>
 			</plugin>
-
+			<!-- 
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
@@ -111,7 +104,7 @@
 				</executions>
 				<configuration>
 					<executable>build-aux/gen_build_data.sh</executable>
-					<!-- optional -->
+					
 					<arguments>
 						<argument>target/generated-sources/net/opentsdb/BuildData.java</argument>
 						<argument>net.opentsdb</argument>
@@ -161,6 +154,7 @@
 					</execution>
 				</executions>
 			</plugin>
+			 -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
@@ -233,7 +227,7 @@
 					</bottom>
 				</configuration>
 			</plugin>
-
+			<!-- 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-gpg-plugin</artifactId>
@@ -251,7 +245,7 @@
 					<keyname>tsunanet@gmail.com</keyname>
 				</configuration>
 			</plugin>
-
+ 			-->
 		</plugins>
 	</build>
 
