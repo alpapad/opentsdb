@@ -18,3 +18,10 @@ easily store hundreds of billions of data points.
 
 OpenTSDB is free software and is available under both LGPLv2.1+ and GPLv3+.
 Find more about OpenTSDB at http://opentsdb.net
+
+
+---
+
+This repo is a personal experimentation environment on git & symlinks. 
+
+If you are looking for opentsdb look@ https://github.com/OpenTSDB/opentsdb
